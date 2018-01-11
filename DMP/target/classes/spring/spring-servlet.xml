@@ -14,7 +14,7 @@
 	<!-- spring注解 -->
 	<context:annotation-config />
 	<context:component-scan base-package="com.kelan" />
-	<!-- <mvc:annotation-driven /> -->
+	<mvc:annotation-driven />
 	
 	<!-- <mvc:interceptors>
 		<mvc:interceptor>
